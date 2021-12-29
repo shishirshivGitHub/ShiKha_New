@@ -59,7 +59,16 @@ public class Main {
         System.out.println(name+ " " +contectno);
         System.out.println(lastname.indexOf("kat"));
         System.out.println(add.substring(7,15));
-        System.out.println(add.replace(oldChar: 'i' ,newChar: 'a'));
+
+        // Using replace function : parameter : char and charsequence
+
+        // using char
+        System.out.println(add.replace('i' ,'a'));
+
+        // using charsequence
+        System.out.println(add.replace("shi" ,"OM"));
+
+        //
 
     }
 
