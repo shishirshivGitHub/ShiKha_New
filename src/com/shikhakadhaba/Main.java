@@ -52,7 +52,7 @@ public class Main {
 
         // casting is when assign a value of one primitive data type another type
         int myInt =9;
-        
+
         //string is  ummutable
         String name1="my name is 'shikha' gangwar";
         String name = "shishir";
