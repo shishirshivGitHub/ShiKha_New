@@ -27,7 +27,7 @@ public class Main {
     static void condition  () {
         boolean isSunUp = true;
 
-        if (isSunUp  ==  false)
+        if (!isSunUp)
             System.out.println("day");
         else
             System.out.println("night");
@@ -49,15 +49,20 @@ public class Main {
 
     }
     static void string (){
+
+        // casting is when assign a value of one primitive data type another type
+        int myInt =9;
+        
         //string is  ummutable
+        String name1="my name is 'shikha' gangwar";
         String name = "shishir";
         String lastname ="katiyar";
         String contectno ="8445990642";
         String add = "shishir katiyar";
         System.out.println(name.toUpperCase());
         System.out.println(name.toLowerCase());
-        System.out.println(name+ " " +contectno);
-        System.out.println(lastname.indexOf("kat"));
+        System.out.println(name+ " " +contectno);       //opeator can be used between String to combine them
+        System.out.println(lastname.indexOf("at"));
         System.out.println(add.substring(7,15));
 
         // Using replace function : parameter : char and charsequence
@@ -68,7 +73,15 @@ public class Main {
         // using charsequence
         System.out.println(add.replace("shi" ,"OM"));
 
-        //
+        System.out.println(name1.indexOf("shikha"));
+
+
+        System.out.println (myInt);
+        System.out.println((double) myInt);
+
+
+
+
 
     }
 
